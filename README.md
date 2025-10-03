@@ -8,6 +8,18 @@ The abundance of social media datasets with crisis messages has greatly impacted
 
 ## Dataset
 
+| Class            | Train | Validation | Test | Total |
+|------------------|:-----:|:----------:|:----:|:-----:|
+| Earthquake       | 800   | 100        | 100  | 1,000 |
+| Flood            | 800   | 100        | 100  | 1,000 |
+| Landslides       | 803   | 100        | 100  | 1,003 |
+| Wildfire         | 720   | 90         | 90   | 900   |
+| Tropical Storm   | 800   | 100        | 100  | 1,000 |
+| Drought          | 800   | 100        | 100  | 1,000 |
+| Human Damage     | 800   | 100        | 100  | 1,000 |
+| Non-Disaster     | 800   | 100        | 100  | 1,000 |
+| **Total**        | 6,323 | 790        | 790  | 7,903 |
+
 - **Total instances:** 7,903  
 - **Categories (8 classes):**  
   - Earthquake  
@@ -23,18 +35,6 @@ The abundance of social media datasets with crisis messages has greatly impacted
   - Training: 6,323  
   - Validation: 790  
   - Testing: 790  
-
-| Class            | Train | Validation | Test | Total |
-|------------------|:-----:|:----------:|:----:|:-----:|
-| Earthquake       | 800   | 100        | 100  | 1,000 |
-| Flood            | 800   | 100        | 100  | 1,000 |
-| Landslides       | 803   | 100        | 100  | 1,003 |
-| Wildfire         | 720   | 90         | 90   | 900   |
-| Tropical Storm   | 800   | 100        | 100  | 1,000 |
-| Drought          | 800   | 100        | 100  | 1,000 |
-| Human Damage     | 800   | 100        | 100  | 1,000 |
-| Non-Disaster     | 800   | 100        | 100  | 1,000 |
-| **Total**        | 6,323 | 790        | 790  | 7,903 |
 
 - **Dataset Link:** [BanglaCalamityMMD on Mendeley](https://data.mendeley.com/datasets/7dggbjn5sd/1)  
 - **Example:**  
@@ -143,12 +143,30 @@ The abundance of social media datasets with crisis messages has greatly impacted
 ---
 
 ## Authors’ Information
-- **Primary Author:** Your Name  
-- **Affiliation:** Your Institution  
-- **Email:** your.email@domain.com  
+- Fatema Tuj Johora Faria 
+- **Affiliation:** Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka 1208, Bangladesh
+- **Email:** fatema.faria142@gmail.com
+
+- Mukaffi Bin Moin
+- **Affiliation:** Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka 1208, Bangladesh
+- **Email:** mukaffi28@gmail.com 
 
 ---
 
 ## Citation
 If you use this dataset or methodology, please cite:  
+
+```bibtex
+@article{BanglaCalamityMMD,
+  title = {BanglaCalamityMMD: A comprehensive benchmark dataset for multimodal disaster identification in the low-resource Bangla language},
+  journal = {International Journal of Disaster Risk Reduction},
+  volume = {130},
+  pages = {105800},
+  year = {2025},
+  issn = {2212-4209},
+  doi = {https://doi.org/10.1016/j.ijdrr.2025.105800},
+  url = {https://www.sciencedirect.com/science/article/pii/S2212420925006247},
+  author = {Fatema Tuj Johora Faria and Mukaffi Bin Moin and Busra Kamal Rafa and Swarnajit Saha and Md. Mahfuzur Rahman and Khan Md Hasib and M.F. Mridha},
+  keywords = {Multimodal disaster identification, Bangla language, Low-resource, Social media, Text and image fusion, Deep learning, Disaster analysis}
+}
 
