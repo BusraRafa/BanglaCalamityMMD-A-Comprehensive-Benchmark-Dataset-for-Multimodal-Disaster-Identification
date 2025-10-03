@@ -144,9 +144,10 @@ The abundance of social media datasets with crisis messages has greatly impacted
 ## Authors’ Information
 
 | Fatema Tuj Johora Faria | Mukaffi Bin Moin |
-|-------------------------|-----------------|
-| **Email:** fatema.faria142@gmail.com | **Email:** mukaffi28@gmail.com |
-| **Affiliation:** Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka 1208, Bangladesh | **Affiliation:** Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka 1208, Bangladesh |
+|:-----------------------:|:----------------:|
+| fatema.faria142@gmail.com | mukaffi28@gmail.com |
+| Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka 1208, Bangladesh | Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka 1208, Bangladesh |
+
 
 
 ---
