@@ -4,6 +4,7 @@
 ## Abstract
 The abundance of social media datasets with crisis messages has greatly impacted disaster response and assessment. Extracting vital information from this data is crucial for enhancing situational awareness and enabling rapid decision-making, necessitating robust techniques to filter out misleading and irrelevant content. This study introduces a hybrid multimodal fusion technique that integrates text and image data to identify relevant disaster-related images from social media. It represents a pioneering effort in multimodal disaster identification for the Bangla language, addressing a significant gap where previous research has focused exclusively on English text. To facilitate this leap, We curated the “BanglaCalamityMMD” dataset, which includes 7,903 data points distributed across seven disaster categories such as Earthquake, Flood, Landslides, Wildfires, Tropical Storms, Droughts, and Human Damage, along with a non-disaster category. Our technique employs advanced deep learning methodologies: DisasterTextNet for text-based disaster detection, DisasterImageNet for image-based disaster categorization, and DisasterMultiFusionNet, which combines text and image modalities using fusion techniques like Early Fusion, Late Fusion, and Intermediate Fusion. The system uses Vision Transformer variations to extract visual data and pre-trained BERT models for textual insights. Our multimodal architecture (DisasterMultiFusionNet) significantly outperforms unimodal approaches. The unimodal text-based approach achieves 79.90% accuracy with mBERT, also the image-based approach reaches 78.65% accuracy using Swin Transformer. In comparison, our multimodal technique achieves 85.25% accuracy with Swin Transformer and mBERT (DisasterMultiFusionNet), showing a 5.35% improvement over the best unimodal approach. This highlights the effectiveness of our fusion technique and the reliability of our multimodal framework in enhancing disaster identification accuracy. To our knowledge, this is the first research on multimodal disaster identification in the low-resource Bangla language context.
 
+**Paper Link:** [BanglaCalamityMMD](https://www.sciencedirect.com/science/article/pii/S2212420925006247)  
 ---
 
 ## Dataset
@@ -131,25 +132,22 @@ The abundance of social media datasets with crisis messages has greatly impacted
 
 
 ## Future Work
-- **Real-time Processing:** Enable rapid disaster response using edge computing and ML.  
 - **Expanded Dataset:** Include more disaster types, severity levels, and stages.  
 - **Linguistic & Cultural Diversity:** Cover Bangla dialects for inclusivity (Chittagonian, Sylheti, Rangpuri).  
 - **Explainable AI (XAI):** Use GradCAM, SHAP, LIME, and Vision-Language Models to interpret model decisions.  
 - **LLMs for Bangla:** Fine-tune large language models for disaster reporting and communication analysis.  
 - **Transfer & Federated Learning:** Improve performance with limited labeled data while preserving privacy.  
-- **Human-AI Collaboration:** Develop interactive systems combining AI insights with human expertise.  
 - **Robust AI Deployment:** Optimize models for low-resource environments and disaster conditions.  
 
 ---
 
 ## Authors’ Information
-- Fatema Tuj Johora Faria 
-- **Affiliation:** Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka 1208, Bangladesh
-- **Email:** fatema.faria142@gmail.com
 
-- Mukaffi Bin Moin
-- **Affiliation:** Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka 1208, Bangladesh
-- **Email:** mukaffi28@gmail.com 
+| Fatema Tuj Johora Faria | Mukaffi Bin Moin |
+|-------------------------|-----------------|
+| **Email:** fatema.faria142@gmail.com | **Email:** mukaffi28@gmail.com |
+| **Affiliation:** Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka 1208, Bangladesh | **Affiliation:** Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka 1208, Bangladesh |
+
 
 ---
 
