@@ -44,7 +44,10 @@ The abundance of social media datasets with crisis messages has greatly impacted
 ---
 
 ## Methodology
-
+- **DisasterTextNet:** A text-based framework built on mBERT and fine-tuned on our custom-curated dataset, designed to reliably identify disaster-related information across multiple disaster categories (Accuracy: 0.7990).
+- **DisasterImageNet:** An image-based method implemented with the Swin Transformer, which captures both local and global image features, and fine-tuned on our dataset to reliably detect disaster images across multiple categories (Accuracy: 0.7865).
+- **DisasterMultiFusionNet:** A multimodal framework where features from the Swin Transformer (images) and mBERT (text) are extracted independently, concatenated at an early stage, and passed through fully connected layers. This allows the model to learn joint representations that capture complementary semantic and visual cues from both modalities (Accuracy: 0.8525).
+  
 ![Methodology Diagram](methodology_diagram.jpg)  
 
 ---
